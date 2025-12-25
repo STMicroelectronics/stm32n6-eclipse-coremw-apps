@@ -52,7 +52,8 @@ Eclipse ThreadX USBX  | Ux_Host_HID_Standalone                 | Shows how to us
 
 ## Development Toolchains and Compilers
 
- * IAR Embedded Workbench for ARM (EWARM) toolchain **9.40.1** + ST-LINKV3.Patch available [here](https://github.com/STMicroelectronics/STM32CubeN6/tree/main/Utilities/PC_Software/IDEs_Patches/EWARM)
+ * IAR Embedded Workbench for ARM (EWARM) toolchain **9.40.1** + ST-LINKV3
+ * [STM32CubeIDE V2.0.0](https://www.st.com/en/development-tools/stm32cubeide.html) + ST-LINKV3
 
 
 ## Dependencies
@@ -61,11 +62,11 @@ This package has been developed and tested using the list of components detailed
 
 Name                       |   Version
 ---------------------------|---------------
-Cortex-M CMSIS             |   V5.9.0
-STM32N6xx CMSIS            |   V1.2.0
-STM32N6xx HAL              |   V1.2.0
-BSP NUCLEO-N657X0-Q        |   V1.1.0
-BSP STM32N6570-DK          |   V1.2.0
+Cortex-M CMSIS             |   base_v6.2.0_dsp_v1.16.2
+STM32N6xx CMSIS            |   V1.3.0
+STM32N6xx HAL              |   V1.3.0
+BSP NUCLEO-N657X0-Q        |   V1.2.0
+BSP STM32N6570-DK          |   V1.3.0
 BSP Common                 |   V7.3.0
 BSP tcpp0203               |   V1.2.3
 FreeRTOS                   |   V11.2.0
@@ -73,7 +74,7 @@ Eclipse ThreadX FileX      |   V6.4.100-beta3
 Eclipse ThreadX LevelX     |   V6.4.100-beta2
 Eclipse ThreadX USBX       |   V6.4.100-beta2
 STM32 USBPD Core Library   |   V5.3.0
-STM32 USBPD Device Library |   n6_V1.0.0
+STM32 USBPD Device Library |   n6_V1.0.1
 
 ## How to use
 

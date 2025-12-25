@@ -81,7 +81,7 @@ Connectivity, USBX Host, Standalone, USB, HID, Mouse, Keyboard, UART, USART,
 In order to make the program work, you must do the following :
 
  - Set the boot mode in development mode (BOOT1 switch position is 2-3, BOOT0 switch position doesn't matter).
- - Open EWARM project
+ - Open your preferred toolchain
  - Rebuild all files and load your image into target memory. Code can be executed in this mode for debugging purposes.
 
 Next, this program can be run in boot from flash mode. This can be done by following the instructions below:
