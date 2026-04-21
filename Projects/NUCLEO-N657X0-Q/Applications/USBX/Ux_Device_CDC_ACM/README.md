@@ -70,7 +70,7 @@ on STM32Cube with RTOS".
 
 ### <b>Keywords</b>
 
-RTOS, FreeRTOS, USBX Device, USB_OTG, High Speed, CDC, VCP, USART, DMA.
+RTOS, FreeRTOS, USBX Device, USBPD, USB_OTG, High Speed, CDC, VCP, USART, DMA.
 
 ### <b>Hardware and Software environment</b>
 

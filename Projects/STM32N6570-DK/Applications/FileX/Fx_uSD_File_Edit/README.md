@@ -30,6 +30,7 @@ That is why MX_SDMMC1_SD_Init() should be public to initialize the newly plugged
 
 - A file named STM32.TXT should be visible in the root directory of the SD card.
 - A blinking green LED light marks the success of the file operations.
+- Information regarding executing operation on the uSD is printed to the serial port.
 
 #### <b>Error behaviors</b>
 
@@ -67,6 +68,13 @@ RTOS, FreeRTOS, FileX, File system, SDMMC, FAT32
 
   - This application runs on STM32N657X0H3QU devices.
   - This application has been tested with STMicroelectronics STM32N6570-DK boards revision MB1939-N6570-C01 and can be easily tailored to any other supported device and development board.
+
+  - This application uses USART1 to display logs, the hyperterminal configuration is as follows:
+    - BaudRate = 115200 baud
+    - Word Length = 8 Bits
+    - Stop Bit = 1
+    - Parity = none
+    - Flow control = None
 
   - **EWARM** : To monitor a variable in the live watch window, you must proceed as follow :
     - Start a debugging session.

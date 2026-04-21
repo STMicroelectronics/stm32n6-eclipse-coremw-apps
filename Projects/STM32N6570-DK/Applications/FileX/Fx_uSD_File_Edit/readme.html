@@ -37,6 +37,8 @@
 <ul>
 <li>A file named STM32.TXT should be visible in the root directory of the SD card.</li>
 <li>A blinking green LED light marks the success of the file operations.</li>
+<li>Information regarding executing operation on the uSD is printed to
+the serial port.</li>
 </ul>
 <h4 id="error-behaviors"><b>Error behaviors</b></h4>
 <ul>
@@ -69,6 +71,15 @@ higher) than the configLIBRARY_MAX_SYSCALL_INTERRUPT_PRIORITY.</p>
 <ul>
 <li>This application runs on STM32N657X0H3QU devices.</li>
 <li><p>This application has been tested with STMicroelectronics STM32N6570-DK boards revision MB1939-N6570-C01 and can be easily tailored to any other supported device and development board.</p></li>
+<li><p>This application uses USART1 to display logs, the hyperterminal
+configuration is as follows:</p>
+<ul>
+<li>BaudRate = 115200 baud</li>
+<li>Word Length = 8 Bits</li>
+<li>Stop Bit = 1</li>
+<li>Parity = none</li>
+<li>Flow control = None</li>
+</ul></li>
 <li><strong>EWARM</strong> : To monitor a variable in the live watch window, you must proceed as follow :
 <ul>
 <li>Start a debugging session.</li>

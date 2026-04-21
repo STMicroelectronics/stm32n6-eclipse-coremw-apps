@@ -54,7 +54,7 @@ on STM32Cube with RTOS".
 
 ### <b>Keywords</b>
 
-Connectivity, USBX Host, FreeRTOS, USB, HID, Mouse, Keyboard, UART, USART,
+Connectivity, USBX Host, FreeRTOS, USBPD, USB, HID, Mouse, Keyboard, UART, USART,
 
 ### <b>Hardware and Software environment</b>
 

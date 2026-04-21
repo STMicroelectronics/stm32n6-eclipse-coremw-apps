@@ -1010,6 +1010,7 @@
                 </option>
                 <option>
                     <name>IlinkTrustzoneImportLibraryOut</name>
+                    <state></state>
                 </option>
                 <option>
                     <name>OILinkExtraOption</name>
@@ -1217,21 +1218,18 @@
                 <name>$PROJ_DIR$\..\..\..\..\..\..\..\Drivers\STM32N6xx_HAL_Driver\Src\stm32n6xx_hal_tim_ex.c</name>
             </file>
             <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\..\..\Drivers\STM32N6xx_HAL_Driver\Src\stm32n6xx_hal_uart.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\..\..\..\..\..\Drivers\STM32N6xx_HAL_Driver\Src\stm32n6xx_hal_uart_ex.c</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\..\..\..\..\..\..\..\Drivers\STM32N6xx_HAL_Driver\Src\stm32n6xx_ll_sdmmc.c</name>
             </file>
         </group>
     </group>
     <group>
         <name>Middlewares</name>
-        <group>
-            <name>Interfaces</name>
-            <group>
-                <name>File System/FileX SD interface</name>
-                <file>
-                    <name>$PROJ_DIR$\..\..\..\..\..\..\..\Middlewares\ST\filex\common\drivers\fx_stm32_sd_driver.c</name>
-                </file>
-            </group>
-        </group>
         <group>
             <name>FileX</name>
             <group>
@@ -1925,6 +1923,15 @@
                 <name>MemMang.Heap_4</name>
                 <file>
                     <name>$PROJ_DIR$\..\..\..\..\..\..\..\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c</name>
+                </file>
+            </group>
+        </group>
+        <group>
+            <name>Interfaces</name>
+            <group>
+                <name>File System/FileX SD interface</name>
+                <file>
+                    <name>$PROJ_DIR$\..\..\..\..\..\..\..\Middlewares\ST\filex\common\drivers\fx_stm32_sd_driver.c</name>
                 </file>
             </group>
         </group>

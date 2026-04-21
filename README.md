@@ -2,7 +2,7 @@
 
 ![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/stm32n6-eclipse-coremw-apps.svg?color=brightgreen)
 
-![freertos](https://img.shields.io/badge/freertos-v11.2.0-blue.svg) ![FileX](https://img.shields.io/badge/filex-6.4.100--beta3-blue.svg) ![LevelX](https://img.shields.io/badge/levelx-6.4.100--beta2-blue.svg) ![USBX](https://img.shields.io/badge/usbx-6.4.100--beta2-blue.svg)
+![freertos](https://img.shields.io/badge/freertos-v11.2.0-blue.svg) ![FileX](https://img.shields.io/badge/filex-6.4.200-blue.svg) ![LevelX](https://img.shields.io/badge/levelx-6.4.100-blue.svg) ![USBX](https://img.shields.io/badge/usbx-6.4.300-blue.svg)
 
 ## Description
 
@@ -53,7 +53,7 @@ Eclipse ThreadX USBX  | Ux_Host_HID_Standalone                 | Shows how to us
 ## Development Toolchains and Compilers
 
  * IAR Embedded Workbench for ARM (EWARM) toolchain **9.40.1** + ST-LINKV3
- * [STM32CubeIDE V2.0.0](https://www.st.com/en/development-tools/stm32cubeide.html) + ST-LINKV3
+ * [STM32CubeIDE V2.1.0](https://www.st.com/en/development-tools/stm32cubeide.html) + ST-LINKV3
 
 
 ## Dependencies
@@ -68,13 +68,13 @@ STM32N6xx HAL              |   V1.3.0
 BSP NUCLEO-N657X0-Q        |   V1.2.0
 BSP STM32N6570-DK          |   V1.3.0
 BSP Common                 |   V7.3.0
-BSP tcpp0203               |   V1.2.3
+BSP tcpp0203               |   V1.2.2
 FreeRTOS                   |   V11.2.0
-Eclipse ThreadX FileX      |   V6.4.100-beta3
-Eclipse ThreadX LevelX     |   V6.4.100-beta2
-Eclipse ThreadX USBX       |   V6.4.100-beta2
-STM32 USBPD Core Library   |   V5.3.0
-STM32 USBPD Device Library |   n6_V1.0.1
+Eclipse ThreadX FileX      |   V6.4.200
+Eclipse ThreadX LevelX     |   V6.4.100
+Eclipse ThreadX USBX       |   V6.4.300
+STM32 USBPD Core Library   |   V5.4.0
+STM32 USBPD Device Library |   n6_V1.1.0
 
 ## How to use
 
