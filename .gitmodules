@@ -1,5 +1,5 @@
-[submodule "Drivers/STM32n6xx_HAL_Driver"]
-	path = Drivers/STM32n6xx_HAL_Driver
+[submodule "Drivers/STM32N6xx_HAL_Driver"]
+	path = Drivers/STM32N6xx_HAL_Driver
 	url = https://github.com/STMicroelectronics/stm32n6xx-hal-driver.git
 	branch = main
 [submodule "Middlewares/ST/filex"]
