@@ -2,7 +2,7 @@
 
 ![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/stm32n6-eclipse-coremw-apps.svg?color=brightgreen)
 
-![freertos](https://img.shields.io/badge/freertos-v11.2.0-blue.svg) ![FileX](https://img.shields.io/badge/filex-6.4.200-blue.svg) ![LevelX](https://img.shields.io/badge/levelx-6.4.100-blue.svg) ![USBX](https://img.shields.io/badge/usbx-6.4.300-blue.svg)
+![freertos](https://img.shields.io/badge/freertos-v11.2.0-blue.svg) ![FileX](https://img.shields.io/badge/filex-6.5.100-blue.svg) ![LevelX](https://img.shields.io/badge/levelx-6.5.100-blue.svg) ![USBX](https://img.shields.io/badge/usbx-6.5.100-blue.svg)
 
 ## Description
 
@@ -63,18 +63,18 @@ This package has been developed and tested using the list of components detailed
 Name                       |   Version
 ---------------------------|---------------
 Cortex-M CMSIS             |   base_v6.2.0_dsp_v1.16.2
-STM32N6xx CMSIS            |   V1.3.0
-STM32N6xx HAL              |   V1.3.0
+STM32N6xx CMSIS            |   V1.4.0
+STM32N6xx HAL              |   V1.4.0
 BSP NUCLEO-N657X0-Q        |   V1.2.0
-BSP STM32N6570-DK          |   V1.3.0
+BSP STM32N6570-DK          |   V1.4.1
 BSP Common                 |   V7.3.0
-BSP tcpp0203               |   V1.2.2
+BSP tcpp0203               |   V1.2.3
 FreeRTOS                   |   V11.2.0
-Eclipse ThreadX FileX      |   V6.4.200
-Eclipse ThreadX LevelX     |   V6.4.100
-Eclipse ThreadX USBX       |   V6.4.300
-STM32 USBPD Core Library   |   V5.4.0
-STM32 USBPD Device Library |   n6_V1.1.0
+Eclipse ThreadX FileX      |   V6.5.100
+Eclipse ThreadX LevelX     |   V6.5.100
+Eclipse ThreadX USBX       |   V6.5.100
+STM32 USBPD Core Library   |   V5.4.1
+STM32 USBPD Device Library |   n6_V1.2.0
 
 ## How to use
 

@@ -31,9 +31,41 @@ and Connector Specification, Revision 2.0 (August, 2019).
 
 ::: {.col-sm-12 .col-lg-8}
 # Update History
+::: {.collapse}
+<input type="checkbox" id="collapse-section4" checked aria-hidden="true">
+<label for="collapse-section4" aria-hidden="true">V1.2.0 / 08-May-2026</label>
+<div>
+
+## Main Changes
+
+  Headline
+  --------
+  SW_Security_Level.md file added
+  FastRoleSwapReception PHY callback added
+
+## Known limitations
+
+  Outstanding bugs list : None
+
+  Requirements not met or planned in a forthcoming release : None
+
+## Supported Devices and boards
+
+  All STM32N6xx devices embedding USBPD IP
+
+## Backward compatibility
+
+  No compatibility break with previous version
+
+## Dependencies
+
+ This software release is compatible with USB-C Power Delivery Core Stack Library v5.4.1
+
+</div>
+:::
 
 ::: {.collapse}
-<input type="checkbox" id="collapse-section3" checked aria-hidden="true">
+<input type="checkbox" id="collapse-section3" aria-hidden="true">
 <label for="collapse-section3" aria-hidden="true">V1.1.0 / 23-Jan-2026</label>
 <div>
 
